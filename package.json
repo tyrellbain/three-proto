@@ -1,11 +1,31 @@
 {
-  "name": "car-game",
+  "name": "three-proto",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server/index.js"
   },
-  "author": "",
+  "author": "Tyrell Bain",
   "license": "ISC",
-  "description": ""
+  "description": "Prototype using Three.js and Cannon.js",
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "express": "^4.17.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.120.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.2",
+    "dat.gui": "^0.7.7",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1",
+    "prettier-eslint": "^11.0.0"
+  }
 }
